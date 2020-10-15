@@ -1,24 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { request } from 'graphql-request';
 import './App.css';
+import First from './Components/part1';
+import Second from './Components/part2';
+import Third from './Components/part3';
 
 function App() {
+
+  const [data, setData] = useState(undefined);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const { site } = await request(
+        'https://api-us-east-1.graphcms.com/v2/ckg8c18062w1901xlcl3k518h/master',
+        
+        `
+        {
+          site(where: {id: "ckg8d3ppk031c0126dr4ifov3"}) {
+            page {
+              nome
+              customFragment {
+                nome
+                fragments
+              }
+            }
+          }
+        }
+        `
+      )
+
+      setData(site);
+    }
+    fetchData();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <First customFragment={data}/> 
+        {console.log(data)}
+        <Second customFragment={data}/>
+        <Third customFragment={data}/>
     </div>
   );
 }
