@@ -2,6 +2,7 @@ import React from 'react';
 
 class First extends React.Component {
     render() {
+        const item = this.props?.customFragment;
         return (
             <div>
                 <div className="container-nav">
@@ -22,7 +23,7 @@ class First extends React.Component {
                     </nav>
                 </div>
                 <div className="container-title">
-                    <h1 className="main-title">{this.props?.customFragment?.page[0]?.customFragment[0]?.fragments[0]}</h1>
+                    <h1 className="main-title">{item?.page[0]?.customFragment[0]?.fragments[0]}</h1>
                 </div>
             </div>
         )
