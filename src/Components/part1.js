@@ -22,9 +22,9 @@ class First extends React.Component {
                         </div>
                     </nav>
                 </div>
-                <div className="container-title">
+                <section className="container-title">
                     <h1 className="main-title">{item?.page[0]?.customFragment[0]?.fragments[0]}</h1>
-                </div>
+                </section>
             </div>
         )
     }

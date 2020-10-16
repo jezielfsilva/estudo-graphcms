@@ -6,13 +6,13 @@ class Second extends React.Component {
         return (
             <div className="container-two">
                 <div className="line"></div>
-                <div className="container-tree">
+                <section className="container-tree">
                     <figure className="box-photo">Imagem</figure>
                     <div className="box-titleText">
                         <h2 className="title-two">{item?.customFragment[0]?.fragments[0]}</h2>
                         <p className="text">{item?.customFragment[1]?.fragments[0]}</p>
                     </div>
-                </div>
+                </section>
             </div>
         )
     }

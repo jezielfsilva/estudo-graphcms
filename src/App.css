@@ -110,7 +110,7 @@
 } 
 
 .container-tree {
-  width: 95%;
+  width: 98%;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -147,7 +147,7 @@
 .text {
   font-size: 0.750em;
   font-weight: normal;
-  line-height: 1.58em;
+  line-height: 1.9em;
   width: 35.7vw;
   height: 21.9vh;
 }
@@ -191,7 +191,7 @@
   height: 23.9vh;
   font-size: 0.875em;
   font-weight: normal;
-  line-height: 1.7em;
+  line-height: 1.9em;
   color: #ffffff;
 }
 
@@ -231,7 +231,7 @@
 }
 
 .box-final {
-  width: 90%;
+  width: 96%;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -262,5 +262,5 @@
   height: 24vh;
   font-weight: normal;
   font-size: 0.875em;
-  line-height: 1.7em;
+  line-height: 1.9em;
 }
