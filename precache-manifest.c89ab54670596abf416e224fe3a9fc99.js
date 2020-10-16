@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58bf0bd281682c259e6488f356d821f5",
+    "revision": "b1b07e2d81987ca27624e32cf34c2a75",
     "url": "/estudo-graphcms/index.html"
   },
   {
-    "revision": "240fbd3ab0501c9bfa7a",
-    "url": "/estudo-graphcms/static/css/main.532ed7a5.chunk.css"
+    "revision": "35156aab09dddd59fc02",
+    "url": "/estudo-graphcms/static/css/main.1ba35463.chunk.css"
   },
   {
     "revision": "66ec0d42c23a6d33f3ad",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/estudo-graphcms/static/js/2.b14a32e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "240fbd3ab0501c9bfa7a",
-    "url": "/estudo-graphcms/static/js/main.a72b4bc6.chunk.js"
+    "revision": "35156aab09dddd59fc02",
+    "url": "/estudo-graphcms/static/js/main.07a3ec4c.chunk.js"
   },
   {
     "revision": "3b2a655fcd10dbf0f793",

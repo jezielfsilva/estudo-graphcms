@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/estudo-graphcms/static/css/main.532ed7a5.chunk.css",
-    "main.js": "/estudo-graphcms/static/js/main.a72b4bc6.chunk.js",
-    "main.js.map": "/estudo-graphcms/static/js/main.a72b4bc6.chunk.js.map",
+    "main.css": "/estudo-graphcms/static/css/main.1ba35463.chunk.css",
+    "main.js": "/estudo-graphcms/static/js/main.07a3ec4c.chunk.js",
+    "main.js.map": "/estudo-graphcms/static/js/main.07a3ec4c.chunk.js.map",
     "runtime-main.js": "/estudo-graphcms/static/js/runtime-main.a86ab7cb.js",
     "runtime-main.js.map": "/estudo-graphcms/static/js/runtime-main.a86ab7cb.js.map",
     "static/js/2.b14a32e0.chunk.js": "/estudo-graphcms/static/js/2.b14a32e0.chunk.js",
     "static/js/2.b14a32e0.chunk.js.map": "/estudo-graphcms/static/js/2.b14a32e0.chunk.js.map",
     "index.html": "/estudo-graphcms/index.html",
-    "precache-manifest.ff425a9a6d70472a5205c870e6f8db63.js": "/estudo-graphcms/precache-manifest.ff425a9a6d70472a5205c870e6f8db63.js",
+    "precache-manifest.c89ab54670596abf416e224fe3a9fc99.js": "/estudo-graphcms/precache-manifest.c89ab54670596abf416e224fe3a9fc99.js",
     "service-worker.js": "/estudo-graphcms/service-worker.js",
-    "static/css/main.532ed7a5.chunk.css.map": "/estudo-graphcms/static/css/main.532ed7a5.chunk.css.map",
+    "static/css/main.1ba35463.chunk.css.map": "/estudo-graphcms/static/css/main.1ba35463.chunk.css.map",
     "static/js/2.b14a32e0.chunk.js.LICENSE.txt": "/estudo-graphcms/static/js/2.b14a32e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a86ab7cb.js",
     "static/js/2.b14a32e0.chunk.js",
-    "static/css/main.532ed7a5.chunk.css",
-    "static/js/main.a72b4bc6.chunk.js"
+    "static/css/main.1ba35463.chunk.css",
+    "static/js/main.07a3ec4c.chunk.js"
   ]
 }
